@@ -1,11 +1,9 @@
 {
-  "homepage": "http://cryptoscholars.com",
+  "homepage": " https://mdanialzadeh.github.io/cryptoscholarsx/",
   "name": "cryptoscholars",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@ashwamegh/react-link-preview": "^0.2.2",
-    "@dhaiwat10/react-link-preview": "^1.12.2",
     "@material-ui/icons": "^4.11.2",
     "@mui/icons-material": "^5.2.5",
     "@mui/material": "^5.2.8",
