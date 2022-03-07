@@ -19,7 +19,8 @@ const CSSReset = createGlobalStyle`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-top: 3em;
+  margin-top: 64px;
+  margin-bottom: 60px;
   position: relative;
 
 }
@@ -46,12 +47,13 @@ element.style {
   
 
   ::-webkit-scrollbar-track {
-    background: black !important;
+    background: transparent !important;
+    ;
   }
   
   
   ::-webkit-scrollbar-thumb {
-      background:  #002370
+      background: grey;
     }
     
     
@@ -60,8 +62,7 @@ element.style {
   }
 
   body {
-    background-image: radial-gradient(circle, #f2f2f2, #f0f0f0, #eeeeee, #edecec, #ebeaea, #ecebeb, #edecec, #eeeded, #f2f1f2, #f6f6f6, #fbfafb, #ffffff)!important;
-   
+    background-image: linear-gradient(to bottom, #fdfdfd, #fdfdfd, #fdfdfd, #fcfcfc, #fcfcfc, #fcfcfc, #fcfcfc, #fcfcfc, #fdfdfd, #fefefe, #fefefe, #ffffff);
     margin-top: 0em;
     }
 
@@ -80,7 +81,7 @@ a:-webkit-any-link {
 
 
 .accordion-item {
-  background-color: #000000 !important;
+  background-color: ;
   
 }
 .bannerimg {
@@ -91,9 +92,6 @@ a:-webkit-any-link {
 
 .accordion-button {
 
-  color: #ffffff !important;
-
-  background-color: #fff0 !important;
  
 }
 

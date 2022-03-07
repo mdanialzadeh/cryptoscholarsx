@@ -13,9 +13,6 @@ function Nft() {
     return (
         <Container>
             <nft.Container>
-                <nft.Title>
-                    NFT Fundraiser
-                </nft.Title>
                 <nft.Section>
                 To further help our project have maximum impact during the first tournament, we will have an NFT sale of two types of NFTs. Our first NFT style is geared towards chess players who prefer traditional chess piece representations. There will be a very limited amount of NFTs of this iteration, sold via gum ball style vending machine.  
                 </nft.Section>
@@ -47,8 +44,7 @@ function Nft() {
                     </a>
                  </div>              
           
-            </nft.Container>
-            <nft.Container>
+     
  <nft.Section>
  The second style will cater to chess players who want a more abstract representation of chess pieces. They are made using generative adversarial neural networks interpretations, of hundreds of chess piece examples. <br/><br/> These will be very LIMITED, can’t be purchased, and only earned through game achievements. When a player reaches the required milestones, an AI generated NFT be will be airdropped their wallet. 
 
@@ -141,7 +137,7 @@ const nft = {
 
   Container: styled.div`
       text-align:center;
-     
+    margin: 3rem 0 ;
       align-items:center;
       display:flex;
       flex-direction: column;

@@ -37,7 +37,7 @@ function ChessBoard() {
                     pawn1w[0].classList.add ("jump_up");
                     setstep(step + 1)
                   }
-                  }, 2000); 
+                  }, 1000); 
                 
                 break;
               

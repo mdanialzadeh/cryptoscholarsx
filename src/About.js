@@ -109,9 +109,8 @@ const info = {
   height: min-content;
   box-shadow: 0 4px 10px 1px rgb(0 0 0 / 10%), 0 20px 4px -1px rgb(0 0 0 / 46%);
   width: 90vw;
-   color: white;
+  
         margin: auto;
-        background-color: black;
         max-width: 1440px;
         @media (max-width: 640px) {
                
@@ -120,8 +119,8 @@ const info = {
   
   Container: styled.div`
       
-    margin-top: 20vh;
-     height: 80vh;
+    margin: 12vh 0;
+      
       background-color: transparent;
       
     `,

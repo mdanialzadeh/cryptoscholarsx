@@ -13,7 +13,7 @@ function Home() {
     return (
 
         
- <Container fluid style={{padding:'4em 0 4em 0'}}>
+ <Container fluid style={{padding:'0 0 0 0', marginTop:"3rem"}}>
     <home.Wrapper>
         <Image className='bannerimg' fluid src={banner}>
             
@@ -21,7 +21,7 @@ function Home() {
         <home.Info>
             <Container>
 
-            <home.Title>Ai scholars was born from a passion for Chess, Artificial Intellegince and Art.  </home.Title>
+            <home.Title>Crypto Scholars was born from a passion for Chess, Artificial Intellegince and Art.  </home.Title>
             </Container>
         </home.Info>
             

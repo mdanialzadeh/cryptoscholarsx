@@ -55,11 +55,11 @@
     }
 
     99% {
-        transform: translateY(-8.2rem)scale3d(.9, 1.2, 0) ;
+        transform: translateY(-200.2%)scale3d(.9, 1.2, 0) ;
     }
 
     100% {
-        transform:translateY(0rem)
+        transform:translateY(-210%)
     }
 }
 
@@ -69,11 +69,11 @@
     }
 
     99% {
-        transform: translateY(-8.2rem)scale3d(.9, 1.2, 0) ;
+        transform: translateY(-200.2%)scale3d(.9, 1.2, 0) ;
     }
 
     100% {
-        transform:translateY(0rem)
+        transform:translateY(-200%)
     }
 }
 
@@ -85,12 +85,12 @@
     }
 
     99% {
-        transform: translateY(8.2rem) scale3d(.9, 1.2, 0);
+        transform: translateY(200.2%) scale3d(.9, 1.2, 0);
         
     }
 
     100% {
-        transform:translateY(0rem)
+        transform:translateY(200%)
     }
 }
 
@@ -102,12 +102,12 @@
     }
 
     99% {
-        transform: translateY(8.2rem) scale3d(.9, 1.2, 0);
+        transform: translateY(200.2%) scale3d(.9, 1.2, 0);
         
     }
 
     100% {
-        transform:translateY(0rem)
+        transform:translateY(200%rem)
     }
 }
 
@@ -117,11 +117,11 @@
     }
 
     99% {
-        transform: translate(16rem, -16rem) scale3d(.9, 1.2, 0);
+        transform: translate(600%, -600%) scale3d(.9, 1.2, 0);
     }
 
     100% {
-        transform: translate(0rem,0rem );
+        transform: translate(8.2rem,-8.2rem );
     }
 }
 
@@ -131,11 +131,11 @@
     }
 
     99% {
-        transform: translate(16rem, -16rem) scale3d(.9, 1.2, 0);
+        transform: translate(600%, -600%) scale3d(.9, 1.2, 0);
     }
 
     100% {
-        transform: translate(0rem,0rem );
+        transform: translate(8.2rem,-8.2rem );
     }
 }
 

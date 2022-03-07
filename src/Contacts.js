@@ -20,35 +20,29 @@ const Contact = {
     
   Container: styled.div`
     position: fixed;
-    top: 6em;
+    bottom: 0;
     right: 0;
-    background: #transparent;
+    background: #e2e2e2;
     z-index: 20;
-    width 3.0rem;
-    height: 7rem;
+    width: 100%;
+    height: 60px;
     display:flex;
-    flex-direction: column;
-    backdrop-filter: blur(10px);
-    justify-content: space-around;
-    padding: .2em .4em .1em .5em;
-    border-radius: 1em 0px 0px 1em;
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
-    border: .1em solid rgb(240 240 240 / 6%);
+    flex-direction: row;
+ 
+    justify-content: center;
+    padding: 10px 0 50px 0;
+
+    box-shadow: 0 -2px 4px 0px rgb(0 0 0 / 20%);
     
     @media (max-width: 640px) {
-      top: 2em;
-      padding: .3em .2em .3em .2em;
-      right: 0em;
-      width 2.5em;
-      height: 5.6em;
-      flex-direction: column;
+
     }
     `,
 
   Image: styled.img`
-  height: 100%;
-  width: 100%;
-  padding: .1em;
+  height: 45px;
+  width: 45px;
+  margin: 0 15px;
   filter: drop-shadow(0 0 .2rem #9e9090 );
     box-shadow: 0 4px 6px -10px rgb(0 0 0 / 10%), 0 2px 4px -10px rgb(0 0 0 / 6%);
     &: hover {

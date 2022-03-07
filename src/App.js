@@ -6,7 +6,7 @@ import Nft from './Nft';
 import News from './News'
 import ParticlesBg from 'particles-bg';
 import About from './About'
-
+import Contact from './Contacts'
 import CSSReset from "./globalStyles";
 
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
@@ -61,18 +61,23 @@ const isMobile = windowDimension <= 800;
           <About/>
     </Route>
 
+    <Route path="/roadmap">     
+          <Roadmap/>
+    </Route>
 
+    <Route path="/nft">     
+           <Nft/>
+    </Route>
+    
     <Route path="/">     
             <Home/>
-            <Roadmap/>
-            <Nft/>
            
     </Route>
 
     </Switch>
     <ParticlesBg color= {"#cacaca"} num={isMobile ? (20) : (100)} type="cobweb" bg={true} />
     </div>
-
+<Contact/>
 </Router>
   
   );

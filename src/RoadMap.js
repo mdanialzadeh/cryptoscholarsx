@@ -14,7 +14,6 @@ function Roadmap() {
               
                 <road.Wrapper>
               
-                <road.Title>Road Map</road.Title>
              
                   <road.Map>
                 <ChessBoard/>
@@ -34,10 +33,10 @@ const road = {
  
   Container: styled.div`
       display:flex;
+      min-height: 90vh;
       justify-content: center;
       flex-direction: column;
       width: 100%; 
-      padding: 140px 10px;
 
      
       @media(max-width: 940px) {
