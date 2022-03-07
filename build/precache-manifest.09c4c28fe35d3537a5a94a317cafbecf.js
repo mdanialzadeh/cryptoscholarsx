@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "26e2b87375330b8aea4ad43354df942b",
+    "revision": "88f7736c84daa5a54b255cc98e6bd2db",
     "url": "/cryptoscholarsx/index.html"
   },
   {
-    "revision": "5f05c9c362db0b5749e6",
+    "revision": "c06308a4e2df6d87cb45",
     "url": "/cryptoscholarsx/static/css/2.68a81a89.chunk.css"
   },
   {
-    "revision": "d7f83a6744a0d125d643",
-    "url": "/cryptoscholarsx/static/css/main.69894e7b.chunk.css"
+    "revision": "971c77938b512288a681",
+    "url": "/cryptoscholarsx/static/css/main.efaed3ce.chunk.css"
   },
   {
-    "revision": "5f05c9c362db0b5749e6",
-    "url": "/cryptoscholarsx/static/js/2.efbcae94.chunk.js"
+    "revision": "c06308a4e2df6d87cb45",
+    "url": "/cryptoscholarsx/static/js/2.2a163117.chunk.js"
   },
   {
-    "revision": "d7f83a6744a0d125d643",
-    "url": "/cryptoscholarsx/static/js/main.32723ae4.chunk.js"
+    "revision": "971c77938b512288a681",
+    "url": "/cryptoscholarsx/static/js/main.b21f5061.chunk.js"
   },
   {
     "revision": "2c76dc9e0115fd179bf5",
@@ -76,8 +76,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cryptoscholarsx/static/media/bannerx.156f1052.png"
   },
   {
-    "revision": "ace68760456b65e68031ced7f058a72f",
-    "url": "/cryptoscholarsx/static/media/chess_board.ace68760.png"
+    "revision": "07eccabdd2528af4bb672cc977a04838",
+    "url": "/cryptoscholarsx/static/media/discord.07eccabd.png"
+  },
+  {
+    "revision": "212959f2ca79435e4a6b338f69a9efbc",
+    "url": "/cryptoscholarsx/static/media/twitter.212959f2.png"
   },
   {
     "revision": "c3c71bf678c7f946830815813367995f",

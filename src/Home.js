@@ -53,7 +53,7 @@ const home = {
     Title: styled.h1`
     text-align: center; 
     padding-bottom: 1rem;
-    font-family: 'Bad Script', cursive;
+    font-family: 'Tangerine', cursive;
     `,
 
 

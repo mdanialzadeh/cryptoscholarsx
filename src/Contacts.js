@@ -6,10 +6,10 @@ import twitter from "./images/twitter.png"
 function Contacts() {
     return (
         <Contact.Container>
-            <a href="https://discord.gg/cqfP6PJrA5" target="_blank" rel="noreferrer">
+            <a href="https://discord.gg/cqfP6PJrA5" target="_blank" rel="noreferrer" style={{height: '50px'}}>
                 <Contact.Image src={discord} alt="discord logo"/> 
             </a>
-            <a href="https://twitter.com/Crypt0Scholars" target="_blank" rel="noreferrer">
+            <a href="https://twitter.com/Crypt0Scholars" target="_blank" rel="noreferrer"style={{height: '50px'}}>
                 <Contact.Image src={twitter} alt="Twitter Logo"/> 
             </a>
         </Contact.Container>
@@ -25,12 +25,11 @@ const Contact = {
     background: #e2e2e2;
     z-index: 20;
     width: 100%;
-    height: 60px;
+    height: 70px;
     display:flex;
     flex-direction: row;
- 
+    align-items: center;
     justify-content: center;
-    padding: 10px 0 50px 0;
 
     box-shadow: 0 -2px 4px 0px rgb(0 0 0 / 20%);
     
@@ -40,8 +39,8 @@ const Contact = {
     `,
 
   Image: styled.img`
-  height: 45px;
-  width: 45px;
+  height: 50px;
+  width: 50px;
   margin: 0 15px;
   filter: drop-shadow(0 0 .2rem #9e9090 );
     box-shadow: 0 4px 6px -10px rgb(0 0 0 / 10%), 0 2px 4px -10px rgb(0 0 0 / 6%);

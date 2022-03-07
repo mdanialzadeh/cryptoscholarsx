@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
 
 function Navtop() {
   return (
-<Navbar variant="light" bg="white" expand="md" collapseOnSelect={true} fixed='top'style={{boxShadow: "0 2px 4px 0 rgba(0,0,0,.4)"}}>
+<Navbar  bg="white" expand="md" collapseOnSelect={true} fixed='top'style={{boxShadow: "0 2px 4px 0 rgba(0,0,0,.4)"}}>
   <Container >
     <Navbar.Brand  style={{fontSize:'1.4rem', fontWeight:'700'}}>
     <Link  id="nava" className="logonav" to="/home"  >
