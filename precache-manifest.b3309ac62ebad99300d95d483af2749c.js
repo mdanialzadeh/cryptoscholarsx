@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "88f7736c84daa5a54b255cc98e6bd2db",
+    "revision": "bf11d10953714ccd0f2c5048f631010e",
     "url": "/cryptoscholarsx/index.html"
   },
   {
-    "revision": "c06308a4e2df6d87cb45",
+    "revision": "d127949165461900cadd",
     "url": "/cryptoscholarsx/static/css/2.68a81a89.chunk.css"
   },
   {
-    "revision": "971c77938b512288a681",
+    "revision": "0d294410d4ee1f2c274c",
     "url": "/cryptoscholarsx/static/css/main.efaed3ce.chunk.css"
   },
   {
-    "revision": "c06308a4e2df6d87cb45",
-    "url": "/cryptoscholarsx/static/js/2.2a163117.chunk.js"
+    "revision": "d127949165461900cadd",
+    "url": "/cryptoscholarsx/static/js/2.35c90feb.chunk.js"
   },
   {
-    "revision": "971c77938b512288a681",
-    "url": "/cryptoscholarsx/static/js/main.b21f5061.chunk.js"
+    "revision": "0d294410d4ee1f2c274c",
+    "url": "/cryptoscholarsx/static/js/main.9979ffff.chunk.js"
   },
   {
     "revision": "2c76dc9e0115fd179bf5",
