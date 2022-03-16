@@ -1,6 +1,4 @@
-
 import { createGlobalStyle } from "styled-components";
-
 
 const CSSReset = createGlobalStyle`
   *,
@@ -22,7 +20,8 @@ const CSSReset = createGlobalStyle`
   margin-top: 64px;
   margin-bottom: 60px;
   position: relative;
-
+  min-height: calc(100vh - 195px);
+  overflow-y: hidden;
 }
 
 element.style {
@@ -32,9 +31,10 @@ element.style {
 .particles-bg-canvas-self{
   position: fixed !important;
   top: 0;
+  right: 0;
+  left: 0;
   bottom: 0;
   z-index: -2;
-  left: 0;
 }
   html {
     font-family: 'Chivo', sans-serif ;
@@ -79,6 +79,24 @@ a:-webkit-any-link {
 }
 
 
+.row {
+    --bs-gutter-x: 0 !important;
+  }
+
+.card {
+  background: #e2e2e2 !important;
+  border: 8px solid white !important;
+  border-radius: 0 !important;
+  margin: 1em !important;
+  box-shadow: 0px 0px 0px 6px black;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  justify-content: center !important;
+}
+
+.card-body {
+  flex: 0 !important;
+}
 
 .accordion-item {
   background-color: ;
@@ -88,6 +106,9 @@ a:-webkit-any-link {
   min-height: 300px;
   max-height: 800px;
   width: 100%;
+  position: relative;
+  left: 0;
+  right: 0;
  }
 
 .accordion-button {
@@ -97,4 +118,4 @@ a:-webkit-any-link {
 
 `;
 
-export default CSSReset
+export default CSSReset;

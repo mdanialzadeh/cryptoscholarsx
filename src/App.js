@@ -1,89 +1,82 @@
 import React, { useEffect, useState } from "react";
-import NavBar from "./Nav"
-import Roadmap from './RoadMap'
-import Home from './Home';
-import Nft from './Nft';
-import News from './News'
-import ParticlesBg from 'particles-bg';
-import About from './About'
-import Contact from './Contacts'
+import NavBar from "./Nav";
+import Roadmap from "./RoadMap";
+import Home from "./Home";
+import Nft from "./Nft";
+import News from "./News";
+import ParticlesBg from "particles-bg";
+import About from "./About";
+import Contact from "./Contacts";
+import Buy from "./Purchase";
 import CSSReset from "./globalStyles";
 
-import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
-
-
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
-
   if (History.scrollRestoration) {
-    History.scrollRestoration = 'manual';
-} else {
+    History.scrollRestoration = "manual";
+  } else {
     window.onbeforeunload = function () {
-        window.scrollTo(0, 0);
-    }
-}
-
-const [windowDimension, setWindowDimension] = useState(null);
-
-useEffect(() => {
-  setWindowDimension(window.innerWidth);
-}, []);
-
-useEffect(() => {
-  function handleResize() {
-    setWindowDimension(window.innerWidth);
+      window.scrollTo(0, 0);
+    };
   }
 
-  window.addEventListener("resize", handleResize);
-  return () => window.removeEventListener("resize", handleResize);
-}, []);
+  const [windowDimension, setWindowDimension] = useState(null);
 
-const isMobile = windowDimension <= 800;
+  useEffect(() => {
+    setWindowDimension(window.innerWidth);
+  }, []);
 
+  useEffect(() => {
+    function handleResize() {
+      setWindowDimension(window.innerWidth);
+    }
 
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
+  const isMobile = windowDimension <= 800;
 
   return (
-<Router>
-<CSSReset />
+    <Router>
+      <CSSReset />
 
-<NavBar/>
+      <NavBar />
 
-    <div className="app">
+      <div className="app">
+        <Switch>
+          <Route path="/news">
+            <News />
+          </Route>
 
-    <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
 
-    <Route path="/news">     
-          <News/>
-    </Route>
+          <Route path="/roadmap">
+            <Roadmap />
+          </Route>
 
-    <Route path="/about">     
-          <About/>
-    </Route>
+          <Route path="/nft">
+            <Nft />
+          </Route>
 
-    <Route path="/roadmap">     
-          <Roadmap/>
-    </Route>
-
-    <Route path="/nft">     
-           <Nft/>
-    </Route>
-    
-    <Route path="/">     
-            <Home/>
-           
-    </Route>
-
-    </Switch>
-    <ParticlesBg color= {"#cacaca"} num={isMobile ? (20) : (100)} type="cobweb" bg={true} />
-    </div>
-<Contact/>
-</Router>
-  
+          <Route path="/">
+            <Home />
+            <Buy />
+          </Route>
+        </Switch>
+      </div>
+      <ParticlesBg
+        color={"#cacaca"}
+        num={isMobile ? 20 : 100}
+        type="cobweb"
+        bg={true}
+      />
+      <Contact />
+    </Router>
   );
 }
 
-
-
 export default App;
-
